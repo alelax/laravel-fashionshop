@@ -1,0 +1,20 @@
+div.product-cnt{
+
+    width: 80%;
+    margin: 30px auto;
+    display: flex;
+    height: auto;
+    
+    
+    div.image-cnt {
+        width: 40%;
+        img {
+            max-width: 100%;
+        }
+    }
+
+    div.details {
+        width: 60%;
+
+    }
+}
