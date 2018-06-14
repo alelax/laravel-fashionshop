@@ -20,3 +20,5 @@
 Route::get('/', 'HomecatalogController@showCatalog') -> name('homepage');
 
 Route::get('/product/{idProduct}', 'HomecatalogController@showProduct') -> name('product-detail');
+
+Route::post('/add', 'HomecatalogController@addProduct') -> name('add_product');
